@@ -1,0 +1,34 @@
+{
+  "_formatVersion": "0.0.2",
+  "preset_map": {
+    "*/Llama-2-*B-*hat-*/*.*": "metaai_llama_2_chat.preset.json",
+    "*/vicuna-*B-v*-16K-*/*.*": "vicuna_v1_5_16k.preset.json",
+    "*/CodeLlama-*B-Python-*/*.*": "codellama_instruct.preset.json",
+    "*/CodeLlama-*B-Instruct-*/*.*": "codellama_instruct.preset.json",
+    "*/Phind-CodeLlama-34B-v*-GGUF/*/*.*": "phind_codellama.preset.json",
+    "*/*istral-*B-Instruct-v*-GGUF/*.gguf": "mistral_instruct.preset.json",
+    "*/OpenHermes-2*-Mistral-7B-GGUF/*.gguf": "chatml.preset.json",
+    "*/dolphin-*-mistral-*B-GGUF/*.gguf": "chatml.preset.json",
+    "*/*istral-*B-OpenOrca-GGUF/*.gguf": "chatml.preset.json",
+    "*/zephyr-*-GGUF/*.gguf": "zephyr.preset.json",
+    "*/stablelm-zephyr-*-GGUF/*.gguf": "zephyr.preset.json",
+    "*/deepseek-*-instruct-GGUF/*.gguf": "deepseek_coder.preset.json",
+    "*/Mixtral-8x7B-Instruct-v*-GGUF/*.gguf": "mistral_instruct.preset.json",
+    "*/phi-2-GGUF/*.gguf": "phi_2.preset.json",
+    "*/Qwen1.5-*-Chat-GGUF/*.gguf": "chatml.preset.json",
+    "*/gemma-*b-it/*.gguf": "google_gemma_instruct.preset.json",
+    "*/gemma-*b-it-GGUF/*.gguf": "google_gemma_instruct.preset.json",
+    "*/Hermes-2-Pro-Mistral-7B-GGUF/*.gguf": "chatml.preset.json",
+    "*/c4ai-command-r-v01-GGUF/*.gguf": "cohere_command_r.preset.json",
+    "*/stable-code-instruct-3b*/*.gguf": "chatml.preset.json",
+    "*/Starling-LM-7B-beta-GGUF/*.gguf": "openchat.preset.json"
+  },
+  "user_preset_map": {
+    "allstax/shorty-3b-GGUF/model-Q8_0.gguf": "phi_2.preset.json",
+    "guinmoon/MobileVLM-3B-GGUF/MobileVLM-3B-f16.gguf": "codellama_completion.preset.json",
+    "Wowso/AIFT-instruct-42dot_LLM-SFT-1.3B-dpo-gguf/42dot_LLM_-SFT-1.3B-DPO.gguf": "codellama_instruct.preset.json",
+    "liminerity/Ultra01-3b-GGUF-q8-0/Ultra01-3b-GGUF-q8-0-unsloth.Q8_0.gguf": "codellama_instruct.preset.json",
+    "Crataco/phi-2-orange-v2-imatrix-GGUF/phi-2-orange-v2.Q5_K_M.imx.gguf": "phi_2.preset.json",
+    "Crataco/cream-phi-2-v0.2-imatrix-GGUF/cream-phi-2-v0.2.Q5_K_M.imx.gguf": "phi_2.preset.json"
+  }
+}
